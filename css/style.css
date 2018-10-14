@@ -1,0 +1,31 @@
+input[type=checkbox] {
+	margin-right: 10px;
+	width: 1.2rem;
+	height: 1.2rem;
+}
+
+div > label {
+	display: block;
+	font-weight: bold;
+}
+div {
+	border: 2px solid #f9b2e1;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 4px;
+	min-height: 48px;	
+}
+
+span label {
+	width: 240px;
+}
+
+.btn {
+	margin: 15px;
+}
+
+
+.highlight {
+	color: #6c0c86;
+	font-weight: bold;
+}

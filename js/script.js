@@ -152,9 +152,6 @@ function jsonSend(dataStructure, url) {
 
 /* 
 	Return a random number between min and max
-	
-	Hints:
-		- Use Math.floor and Math.random
 */
 function rand(min, max) {
 	// Add your code here
@@ -188,13 +185,6 @@ function randomColor(low,hi) {
 
 /* 
 	Pops a random value from the selectedItems array
-	
-	Help:  
-		- Make sure selectedItems has length greater than zero
-		- Use the rand function (see above) to get a random index between 0 and selectedItems.length
-		- Using a local variable, save the value of the array at that random index
-		- Remove the array item at the index using the JavaScript's array splice function
-		- Return the saved value 
 */
 function popRandomValue() {
 	// Add your code here
@@ -214,11 +204,6 @@ function popRandomValue() {
 /*
 	Updates a button with a new random value from the selectedItems array
 	and give the button a random color
-	
-	Hints:
-		- Use the popRandomValue function (see above) to get and remove a value from selectedItems 
-		- Set the button's value to this new randomly selected value
-		- Use the randomColor function (see above) to set the button's style.backgroundColor
 */
 function updateButton(button) {
 	// Add your code here
@@ -402,10 +387,6 @@ function updateMessageArea() {
 	
 	Then, call updateMessageArea (see above) to display the updated list of selected items
 	
-	Help:
-		- You can use the this pointer to refer to the checkbox being changed
-		- Elements have fields called parentNode and classList that are useful here
-		- JavaScript arrays have functions such as push, splice and indexOf that are useful here
 */
 function addSelectedItem() {
 	// Add your code here
@@ -432,11 +413,6 @@ function addSelectedItem() {
 	Add eventListeners to all the checkboxes so that when a checkbox is changed 
 	the function addSelectedItem (see above) is called 
 	
-	Help:
-		- querySelectorAll returns an array of elements
-		- Iterate over the array of elements and add an event listerner to each one
-		- The query "input[type=checkbox]" will select all the checkboxes
-		- Use the "change" event, not the "click" event
 */
 function addCheckboxListeners() {
 	// Add your code here
